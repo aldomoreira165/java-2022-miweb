@@ -75,9 +75,40 @@ footer a {
     color: white;
 }
 
-#tituloFormulario{
+#contenido table{
+    margin: auto;
+}
+
+#contenido h2{
     text-align: center;
-    font-size: 35px;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+#contenido form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#contenido form * {
+    display: inline-block;   
+}
+
+input[type="text"], select {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    background: #7d0a42;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    cursor: pointer;
 }
 
 /*Selector por clase*/
@@ -86,3 +117,4 @@ footer a {
     float: none;
     clear: both;
 }
+
