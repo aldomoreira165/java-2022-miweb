@@ -96,6 +96,11 @@ footer a {
     display: inline-block;   
 }
 
+#cajaMensaje{
+    height: 80px;
+}
+
+
 input[type="text"], select {
     margin-bottom: 15px;
     padding: 10px;
@@ -116,5 +121,42 @@ input[type="submit"] {
 .clearFix{
     float: none;
     clear: both;
+}
+
+.formulario {
+    width: 500px;
+    background: #23376D;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.formulario .controls{
+    width: 96%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.formulario .button{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;   
 }
 
